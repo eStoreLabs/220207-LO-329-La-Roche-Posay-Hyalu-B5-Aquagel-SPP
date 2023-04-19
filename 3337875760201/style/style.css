@@ -8,16 +8,16 @@
 /* Locator Web Light */
 @font-face {
   font-family: "LocatorWeb";
-  src: url("./assets/fonts/LocatorWebLight/LocatorWebLight.eot");
-  src: url("./assets/fonts/LocatorWebLight/LocatorWebLight.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/LocatorWebLight/LocatorWebLight.woff2") format("woff2"), url("./assets/fonts/LocatorWebLight/LocatorWebLight.woff") format("woff");
+  src: url("./3337875760201/fonts/LocatorWebLight/LocatorWebLight.eot");
+  src: url("./3337875760201/fonts/LocatorWebLight/LocatorWebLight.eot?#iefix") format("embedded-opentype"), url("./3337875760201/fonts/LocatorWebLight/LocatorWebLight.woff2") format("woff2"), url("./3337875760201/fonts/LocatorWebLight/LocatorWebLight.woff") format("woff");
   font-weight: 200;
   font-style: normal;
 }
 /* Locator Web Medium */
 @font-face {
   font-family: "LocatorWeb";
-  src: url("./assets/fonts/LocatorWebMedium/LocatorWebMedium.eot");
-  src: url("./assets/fonts/LocatorWebMedium/LocatorWebMedium.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/LocatorWebMedium/LocatorWebMedium.woff2") format("woff2"), url("./assets/fonts/LocatorWebMedium/LocatorWebMedium.woff") format("woff");
+  src: url("./3337875760201/fonts/LocatorWebMedium/LocatorWebMedium.eot");
+  src: url("./3337875760201/fonts/LocatorWebMedium/LocatorWebMedium.eot?#iefix") format("embedded-opentype"), url("./3337875760201/fonts/LocatorWebMedium/LocatorWebMedium.woff2") format("woff2"), url("./3337875760201/fonts/LocatorWebMedium/LocatorWebMedium.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -104,7 +104,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-image: url(../img/bg-hero.jpg);
+  background-image: url(../images/bg-hero.jpg);
   background-repeat: no-repeat;
   /* background-size: cover; */
   /* background-size: 100%; */
@@ -218,7 +218,7 @@
 @media screen and (min-width: 600px) {
   #la-roche.la-roche .es-results {
     padding: 4rem 0 4rem 12rem;
-    background-image: url(../img/lrp-hyalu-b5-aquagel-spf30-pack-with-derm-hand-blue-background.jpg);
+    background-image: url(../images/lrp-hyalu-b5-aquagel-spf30-pack-with-derm-hand-blue-background.jpg);
   }
 }
 
@@ -307,19 +307,19 @@ font-size: 4.3rem;
 }
 
 #la-roche.la-roche .es-ingr__main--1 {
-  background-image: url(../img/kwas-hialuronowy.png);
+  background-image: url(../images/kwas-hialuronowy.png);
 }
 
 #la-roche.la-roche .es-ingr__main--2 {
-  background-image: url(../img/wit-B5.png);
+  background-image: url(../images/wit-B5.png);
 }
 
 #la-roche.la-roche .es-ingr__main--3 {
-  background-image: url(../img/gliceryna.png);
+  background-image: url(../images/gliceryna.png);
 }
 
 #la-roche.la-roche .es-ingr__main--4 {
-  background-image: url(../img/wit-E.png);
+  background-image: url(../images/wit-E.png);
 }
 
 #la-roche.la-roche .es-ingr__name {
@@ -347,7 +347,7 @@ font-weight: 400;
 
 @media screen and (min-width: 600px) {
   #la-roche.la-roche .es-use {
-    background-image: url(../img/bg-use-min.png);
+    background-image: url(../images/bg-use-min.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -393,7 +393,7 @@ font-weight: 400;
 
 #la-roche.la-roche .es-cross {
   margin: 50px 0;
-  background-image: url(../img/bg-routine-min.png);
+  background-image: url(../images/bg-routine-min.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -553,16 +553,16 @@ font-weight: 400;
   margin: 3.5px;
 }
 #la-roche.la-roche .es-obligations__single--1 {
-  background-image: url(../img/obligations-bg-1.png);
+  background-image: url(../images/obligations-bg-1.png);
 }
 #la-roche.la-roche .es-obligations__single--2 {
-  background-image: url(../img/obligations-bg-2.png);
+  background-image: url(../images/obligations-bg-2.png);
 }
 #la-roche.la-roche .es-obligations__single--3 {
-  background-image: url(../img/obligations-bg-3.png);
+  background-image: url(../images/obligations-bg-3.png);
 }
 #la-roche.la-roche .es-obligations__single--4 {
-  background-image: url(../img/obligations-bg-4.png);
+  background-image: url(../images/obligations-bg-4.png);
 }
 #la-roche.la-roche .es-obligations__text {
   color: #fff;

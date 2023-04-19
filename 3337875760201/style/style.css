@@ -463,11 +463,12 @@ font-weight: 400;
   font-size: 12px;
   margin: 20px 0;
   text-transform: none;
-  transition: 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 #la-roche.la-roche .es-cross__single:hover img {
   transform: scale(1.05);
+  z-index: 999;
 }
 
 #la-roche.la-roche .es-cross__single:hover .es-cross__link {
@@ -489,7 +490,7 @@ font-weight: 400;
 
   #la-roche.la-roche .es-cross__single {
     position: static;
-    width: 80vw;
+    width: 80%;
     text-align: left;
   }
 

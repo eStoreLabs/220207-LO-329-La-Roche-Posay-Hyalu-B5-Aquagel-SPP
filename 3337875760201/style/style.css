@@ -289,19 +289,19 @@ font-size: 4.3rem;
 }
 
 #la-roche.la-roche .es-ingr__main--1 {
-  background-image: url(../images/kwas-hialuronowy.png);
+  background-image: url(../images/kwas-hialuronowy.jpg);
 }
 
 #la-roche.la-roche .es-ingr__main--2 {
-  background-image: url(../images/wit-B5.png);
+  background-image: url(../images/wit-B5.jpg);
 }
 
 #la-roche.la-roche .es-ingr__main--3 {
-  background-image: url(../images/gliceryna.png);
+  background-image: url(../images/gliceryna.jpg);
 }
 
 #la-roche.la-roche .es-ingr__main--4 {
-  background-image: url(../images/wit-E.png);
+  background-image: url(../images/wit-E.jpg);
 }
 
 #la-roche.la-roche .es-ingr__name {
@@ -329,7 +329,7 @@ font-weight: 400;
 
 @media screen and (min-width: 768px) {
   #la-roche.la-roche .es-use {
-    background-image: url(../images/bg-use-min.png);
+    background-image: url(../images/bg-use-min.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -375,7 +375,7 @@ font-weight: 400;
 
 #la-roche.la-roche .es-cross {
   margin: 50px 0;
-  background-image: url(../images/bg-routine-min.png);
+  background-image: url(../images/bg-routine-min.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;

@@ -106,8 +106,6 @@
   align-items: center;
   background-image: url(../images/bg-hero.jpg);
   background-repeat: no-repeat;
-  /* background-size: cover; */
-  /* background-size: 100%; */
   background-position-x: -400%;
   position: relative;
 }
@@ -215,7 +213,7 @@
   transition: background-size 300ms ease-in-out;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   #la-roche.la-roche .es-results {
     padding: 4rem 0 4rem 12rem;
     background-image: url(../images/lrp-hyalu-b5-aquagel-spf30-pack-with-derm-hand-blue-background.jpg);
@@ -279,7 +277,7 @@ font-size: 4.3rem;
   gap: 2rem;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   #la-roche.la-roche .es-ingr__container {
     justify-content: space-between;
     gap: unset;
@@ -345,7 +343,7 @@ font-weight: 400;
   background-color: #a1d8e6;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   #la-roche.la-roche .es-use {
     background-image: url(../images/bg-use-min.png);
     background-repeat: no-repeat;
@@ -358,7 +356,7 @@ font-weight: 400;
  padding: 1.5rem;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   #la-roche.la-roche .es-use__content {
     max-width: 45%;
     padding: 1rem 7rem;
@@ -494,7 +492,7 @@ font-weight: 400;
   outline: 2.5px solid var(--es-blue-accent);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   #la-roche.la-roche .es-cross__mainTitle {
     margin-bottom: unset;
   }
@@ -580,7 +578,7 @@ font-weight: 400;
   font-size: 12px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   #la-roche.la-roche .es-kv {
     background-position: 40% 80%;
     background-size: 150%;

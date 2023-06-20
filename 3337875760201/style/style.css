@@ -1,7 +1,7 @@
 /* Locator Web Light */
 @font-face {
   font-family: 'Locator Light';
-  src: url("fonts/LocatorWebLight/LocatorWebLight.woff2") format("woff2"), url("fonts/LocatorWebLight/LocatorWebLight.woff") format("woff");
+  src: url("../fonts/LocatorWebLight/LocatorWebLight.woff2") format("woff2"), url("fonts/LocatorWebLight/LocatorWebLight.woff") format("woff");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
@@ -17,7 +17,7 @@
 /* Locator Web Medium */
 @font-face {
   font-family: 'Locator Medium';
-  src: url("fonts/LocatorWebMedium/LocatorWebMedium.woff2") format("woff2"), url("fonts/LocatorWebMedium/LocatorWebMedium.woff") format("woff");
+  src: url("../fonts/LocatorWebMedium/LocatorWebMedium.woff2") format("woff2"), url("fonts/LocatorWebMedium/LocatorWebMedium.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -545,10 +545,12 @@ font-family: "Locator Medium";
 
 #es-effaclar.es-effaclar .es-use {
   margin-bottom: 56px;
+color: #000;
+  
 }
 
 #es-effaclar.es-effaclar .es-use__wrapper {
-  background-color: #659acc;
+  background-color: #a1d8e6;
   padding: 24px 16px;
   min-height: 257px;
 }
@@ -557,11 +559,22 @@ font-family: "Locator Medium";
   margin: 0;
   padding: 0;
   line-height: inherit;
-  color: #fff;
+  color: #000;
   font-size: 27px;
   font-family: "Locator Medium";
   text-transform: uppercase;
   margin-bottom: 24px;
+}
+
+#es-effaclar.es-effaclar .es-use__list {
+  margin: 0;
+  padding: 0;
+  padding-left: 16px;
+}
+
+#es-effaclar.es-effaclar .es-use__item::marker {
+  font-family: "Locator Medium";
+  font-size: 18px;
 }
 
 #es-effaclar.es-effaclar .es-use__item {
@@ -569,7 +582,6 @@ font-family: "Locator Medium";
   padding: 0;
   line-height: 1.2;
   font-size: 15px;
-  color: #fff;
   font-weight: 400;
   margin-bottom: 16px;
 }
@@ -577,10 +589,10 @@ font-family: "Locator Medium";
 #es-effaclar.es-effaclar .es-use__text {
   margin: 0;
   padding: 0;
+  margin-left: 5px;
   line-height: inherit;
   color: inherit;
   font-size: 15px;
-  color: #fff;
   font-weight: 200;
   margin-bottom: 16px;
 }
@@ -905,6 +917,7 @@ font-family: "Locator Medium";
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     z-index: 0;
+    width: 80%;
   }
   #es-effaclar.es-effaclar .es-kv__img-packshot {
     -webkit-transition: -webkit-transform 0.3s ease;
@@ -942,7 +955,7 @@ font-family: "Locator Medium";
     padding-left: 0;
   }
   #es-effaclar.es-effaclar .es-serum__feature {
-    width: 133px;
+    width: 138px;
   }
   #es-effaclar.es-effaclar .es-res {
     margin-bottom: 64px;
@@ -1029,7 +1042,6 @@ font-family: "Locator Medium";
     max-width: unset;
   }
   #es-effaclar.es-effaclar .es-use__list {
-    padding-left: 16px;
     margin-bottom: 0;
   }
   #es-effaclar.es-effaclar .es-use__item:last-child {
